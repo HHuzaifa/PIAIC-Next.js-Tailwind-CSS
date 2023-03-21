@@ -37,19 +37,20 @@ export default function Header() {
 
           <ul className="hidden lg:flex lg:justify-center space-x-16 font-navLinkFont font-semibold mb-5">
             <li className="text-white">
-              <Link href="/" className="hover:text-[#09746F]">About</Link>
+              <Link href="/" className="hover:text-[#09746F]">
+                About
+              </Link>
             </li>
             <li className="text-white">
-              <Link href="End-Goal" className="hover:text-[#09746F]">End Goal</Link>
+              <Link href="/AvailablePrograms" className="hover:text-[#09746F]">
+                Available Programs
+              </Link>
             </li>
+            
             <li className="text-white">
-              <Link href="Courses" className="hover:text-[#09746F]">Courses</Link>
-            </li>
-            <li className="text-white">
-              <Link href="Fellowship" className="hover:text-[#09746F]">Fellowship</Link>
-            </li>
-            <li className="text-white">
-              <Link href="Detail" className="hover:text-[#09746F]">Detailed</Link>
+              <Link href="/WIT" className="hover:text-[#09746F]">
+                WIT
+              </Link>
             </li>
           </ul>
           <div className="-mt-6 hidden lg:flex">
@@ -68,17 +69,25 @@ export default function Header() {
               <div className="absolute top-8 -right-5 -left-24 lg:hidden xl:hidden 2xl:hidden py-16 bg-slate-900 text-white">
                 <ul className="max-w-full font-navLinkFont font-semibold space-y-10 text-center">
                   <li>
-                    <Link href="/About" className="hover:text-[#09746F]">About</Link>
+                    <Link href="/" className="hover:text-[#09746F]">
+                      About
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/How It Works" className="hover:text-[#09746F]" >How It Works</Link>
+                    <Link
+                      href="/AvailablePrograms"
+                      className="hover:text-[#09746F]"
+                    >
+                      Available Programs
+                    </Link>
                   </li>
+                  
                   <li>
-                    <Link href="/WIT" className="hover:text-[#09746F]">WIT</Link>
+                    <Link href="/WIT" className="hover:text-[#09746F]">
+                      WIT
+                    </Link>
                   </li>
-                  <li>
-                    <Link href="/Available Programs" className="hover:text-[#09746F]">Available Programs</Link>
-                  </li>
+
                   <div>
                     <Link href="https://portal.piaic.org/" target="_blank">
                       <Button text="Apply" />

@@ -1,7 +1,13 @@
+import Wrapper from "../components/Wrapper";
+
 export default function WIT() {
     return(
-        <section>
-            
+        <section className="">
+            <Wrapper>
+                <div>
+
+                </div>
+            </Wrapper>
         </section>
     )
 }

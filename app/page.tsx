@@ -1,6 +1,5 @@
 import About from "./About/page";
-import AvailablePrograms from "./Available Programs/page";
-import HowItWorks from "./How It Works/page";
+import AvailablePrograms from "./AvailablePrograms/page";
 import WIT from "./WIT/page";
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
     <>
       <About />
       <AvailablePrograms />
-      <HowItWorks />
       <WIT />
     </>
   );

@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 export default function About() {
   return (
-    <section className="w-full h-screen">
+    <section className="w-full h-screen mb-10">
       <Wrapper>
         <div className="flex flex-col lg:flex-row justify-center items-center">
           <Image
