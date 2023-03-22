@@ -6,7 +6,7 @@ export default function AvailablePrograms() {
   return (
     <section className="w-full h-auto bg-slate-900">
       <Wrapper>
-        <div className="w-full flex flex-col text-center items-center py-32">
+        <div className="w-full flex flex-col text-center items-center py-20">
           <h1 className="text-white text-2xl font-hIFont mb-20">
             " Available Programs "
           </h1>
@@ -16,31 +16,37 @@ export default function AvailablePrograms() {
               image="/program images/ai.png"
               title="Artificial Intelligence (Specialization)"
               bText="View Details"
+              link="/AI"
             />
             <Card
               image="/program images/metaverse.png"
               title="Web 3.0 and Metaverse (Specialization)"
               bText="View Details"
+              link="/Web3_Meta"
             />
             <Card
               image="/program images/cloudC.png"
               title="Cloud Computing (Specialization)"
               bText="View Details"
+              link="/Cloud"
             />
             <Card
               image="/program images/iot.png.jpg"
               title="Internet Of Things (Specialization)"
               bText="View Details"
+              link="/IOT"
             />
             <Card
               image="/program images/bioInformatics.png"
               title="Genomics & Bioinformatics (Specialization)"
               bText="View Details"
+              link="/BioInformatics"
             />
             <Card
               image="/program images/network and automation.png"
               title="Network Programmability & Automation (Specialization)"
               bText="View Details"
+              link="/NetworkAutomation"
             />
           </div>
 

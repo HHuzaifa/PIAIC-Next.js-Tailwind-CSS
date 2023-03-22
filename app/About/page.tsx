@@ -1,6 +1,7 @@
 import Wrapper from "../components/Wrapper";
 import Image from "next/image";
 import Button from "../components/Button";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -15,15 +16,17 @@ export default function About() {
             className="lg:order-last my-10 lg:-mr-16"
           />
           <div className="flex flex-col justify-center mb-5 items-start text-justify lg:order-first lg:-mb-5">
-            <h1 className="text-black text-xl lg:text-3xl font-hIFont">
+            <h1 className="text-slate-900 text-xl lg:text-2xl font-bold font-hIFont">
               Presidential Initiative for Artificial Intelligence and Computing
               (PIAIC)
             </h1>
-            <h2 className="text-black text-lg my-10 lg:text-lg font-paraFont">
-              A One and Quarter Years Panaverse DAO Earn as you Learn Program
+            <h2 className="text-slate-900 text-lg font-medium my-10 lg:text-lg font-paraFont">
+              A One and Quarter Years Program
               Getting Ready for the Next Generation of the Internet
             </h2>
-            <Button text="Apply" />
+            <Link href="https://portal.piaic.org/" target="_blank">
+              <Button text="Apply" />
+            </Link>
           </div>
         </div>
       </Wrapper>

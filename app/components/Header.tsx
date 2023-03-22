@@ -46,7 +46,7 @@ export default function Header() {
                 Available Programs
               </Link>
             </li>
-            
+
             <li className="text-white">
               <Link href="/WIT" className="hover:text-[#09746F]">
                 WIT
@@ -55,7 +55,7 @@ export default function Header() {
           </ul>
           <div className="-mt-6 hidden lg:flex">
             <Link href="https://portal.piaic.org/" target="_blank">
-              <Button text="Apply" />
+                <Button text="Apply" />
             </Link>
           </div>
 
@@ -66,7 +66,7 @@ export default function Header() {
             </button>
 
             {showMenu && (
-              <div className="absolute top-8 -right-5 -left-24 lg:hidden xl:hidden 2xl:hidden py-16 bg-slate-900 text-white">
+              <div className="absolute top-8 -right-5 -left-24 lg:hidden xl:hidden 2xl:hidden py-16 border-b-2 border-white bg-slate-900 text-white">
                 <ul className="max-w-full font-navLinkFont font-semibold space-y-10 text-center">
                   <li>
                     <Link href="/" className="hover:text-[#09746F]">
@@ -81,7 +81,7 @@ export default function Header() {
                       Available Programs
                     </Link>
                   </li>
-                  
+
                   <li>
                     <Link href="/WIT" className="hover:text-[#09746F]">
                       WIT
