@@ -1,82 +1,92 @@
-import Wrapper from "../components/Wrapper";
-import Image from "next/image";
+import Wrapper from "../../components/Wrapper";
 import { BsCircleFill } from "react-icons/bs";
 
 export default function AI() {
   return (
     <section className="w-full h-auto my-20">
+      <div className="w-20 h-96 absolute right-40 rotate-45 bg-green-900 -z-10 rounded-full blur-3xl"></div>
       <Wrapper>
         <div className="w-full flex-col justify-between items-center text-center">
-
-
-          <h1 className="text-slate-900 text-2xl lg:text-3xl font-bold font-hIFont">
+          <h1 className="text-white text-5xl font-pageTitleFont mb-20">
             Artificial Intelligence
           </h1>
+          <p className="text-white text-xl font-paraFont mb-20">
+            The AI and Deep Learning specialization focuses on building and
+            deploying intelligent APIs using OpenAI models and building custom
+            Deep Learning Tensorflow models.
+          </p>
 
-          <div>
-            <h2 className="text-slate-900 text-xl lg:text-2xl font-bold font-hIFont">
+          <div className="pb-10">
+            <h2 className="text-[#2ca79c] text-xl lg:text-2xl font-semibold font-pageTitleFont">
               Core Courses (Common in All Specializations)
             </h2>
-            <ul className="">
+            <ul className="my-16">
               <li className="relative flex gap-6 pb-5 -z-50">
-                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#09746F]">
-                  <BsCircleFill className="text-[#09746F] text-base" />
+                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#2ca79c]">
+                  <BsCircleFill className="text-[#2ca79c] text-base" />
                 </div>
-                <div className="bg-slate-900 text-start text-white rounded-2xl p-5">
-                  <h3>Quarter I (Core)</h3>
+                <div className="bg-slate-500 text-start text-lg font-paraFont text-white rounded-2xl p-5">
+                  <h3 className="font-bold text-xl">Quarter I (Core)</h3>
                   <p>CS-101: Object-Oriented Programming using TypeScript</p>
                 </div>
               </li>
               <li className="relative flex gap-6 pb-5 -z-50">
-                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#09746F]">
-                  <BsCircleFill className="text-[#09746F] text-base" />
+                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#2ca79c]">
+                  <BsCircleFill className="text-[#2ca79c] text-base" />
                 </div>
-                <div className="bg-slate-900 text-start text-white rounded-2xl p-5">
-                  <h3>Quarter II (Core)</h3>
-                  <p>W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform</p>
+                <div className="bg-slate-500 text-start text-lg font-paraFont text-white rounded-2xl p-5">
+                  <h3 className="font-bold text-xl">Quarter II (Core)</h3>
+                  <p>
+                    W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud
+                    Cloud Apps and APIs using Next.js 13 and Cloud Development
+                    Kit (CDK) for Terraform
+                  </p>
                 </div>
               </li>
               <li className="relative flex gap-6 pb-5 -z-50">
-                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#09746F]">
-                  <BsCircleFill className="text-[#09746F] text-base" />
+                <div className="">
+                  <BsCircleFill className="text-[#2ca79c] text-base" />
                 </div>
-                <div className="bg-slate-900 text-start text-white rounded-2xl p-5">
-                  <h3>Quarter III (Core)</h3>
-                  <p>$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development</p>
+                <div className="bg-slate-700 text-start text-lg font-paraFont text-white rounded-2xl p-5">
+                  <h3 className="font-bold text-xl">Quarter III (Core)</h3>
+                  <p>
+                    $-101: Dollar Making Bootcamp - Full-Stack Template and API
+                    Product Development
+                  </p>
                 </div>
               </li>
             </ul>
           </div>
 
-
           <div>
-            <h2 className="text-slate-900 text-xl lg:text-2xl font-bold font-hIFont">
-            Artificial Intelligence (AI) and Deep Learning Specialization
+            <div className="w-20 h-96 absolute left-60  bg-green-900 -z-50 rounded-full blur-3xl"></div>
+            <h2 className="text-[#2ca79c] text-xl lg:text-2xl font-semibold font-pageTitleFont">
+              Artificial Intelligence (AI) and Deep Learning Specialization
             </h2>
-            <ul className="">
+            <ul className="my-10">
               <li className="relative flex gap-6 pb-5 -z-50">
-                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#09746F]">
-                  <BsCircleFill className="text-[#09746F] text-base" />
+                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#2ca79c]">
+                  <BsCircleFill className="text-[#2ca79c] text-base" />
                 </div>
-                <div className="bg-slate-900 text-start text-white rounded-2xl p-5">
-                  <h3>Quarter IV</h3>
-                  <p>AI-351: Developing Planet-Scale Intelligent APIs and Python Programming</p>
+                <div className="bg-slate-800 text-start text-lg font-paraFont text-white rounded-2xl p-5">
+                  <h3 className="font-bold text-xl">Quarter IV</h3>
+                  <p>
+                    AI-351: Developing Planet-Scale Intelligent APIs and Python
+                    Programming
+                  </p>
                 </div>
               </li>
               <li className="relative flex gap-6 pb-5 -z-50">
-                <div className="before:absolute before:left-[5.5px] before:h-full before:w-1 before:bg-[#09746F]">
-                  <BsCircleFill className="text-[#09746F] text-base" />
+                <div className="">
+                  <BsCircleFill className="text-[#2ca79c] text-base" />
                 </div>
-                <div className="bg-slate-900 text-start text-white rounded-2xl p-5">
-                  <h3>Quarter V</h3>
+                <div className="bg-slate-900 text-start text-lg font-paraFont text-white rounded-2xl p-5">
+                  <h3 className="font-bold text-xl">Quarter V</h3>
                   <p>AI-361: Deep Learning and MLOps</p>
                 </div>
               </li>
-              
             </ul>
           </div>
-
-
         </div>
       </Wrapper>
     </section>

@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Maven+Pro&family=Patua+One&family=Quicksand&family=Work+Sans:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

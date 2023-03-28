@@ -1,56 +1,76 @@
-import Wrapper from "../components/Wrapper";
+"use client";
+import Wrapper from "../../components/Wrapper";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function WIT() {
   return (
-    <section className="w-full h-auto">
+    <section id="WITSection" className="w-full h-auto">
       <Wrapper>
         <div className="w-full flex flex-col object-center items-center justify-center my-28">
           <Image
-            src="/women-in-tech-logo.png"
+            src="/WIT-Logo.png"
             width="300"
             height="350"
             alt="WIT Title Image"
             className="mb-20"
           />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 object-cover gap-3">
-            <Image
-              src="/gallery/wit3.jpg"
-              width="600"
-              height="450"
-              alt="WIT Gallery Image"
-            />
-            <Image
-              src="/gallery/wit1.jpg"
-              width="600"
-              height="450"
-              alt="WIT Gallery Image"
-            />
-            <Image
-              src="/gallery/wit2.jpg"
-              width="600"
-              height="450"
-              alt="WIT Gallery Image"
-            />
-            <Image
-              src="/gallery/wit4.jpg"
-              width="600"
-              height="450"
-              alt="WIT Gallery Image"
-            />
-            <Image
-              src="/gallery/wit6.jpg"
-              width="600"
-              height="450"
-              alt="WIT Gallery Image"
-            />
-            <Image
-              src="/gallery/wit6.jpg"
-              width="600"
-              height="450"
-              alt="WIT Gallery Image"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-7 xl:gap-4 lg:grid-cols-2 xl:grid-cols-2 object-cover gap-3">
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Image
+                src="/gallery/wit3.jpg"
+                width="600"
+                height="450"
+                alt="WIT Gallery Image"
+                className="rounded-lg md:max-w-xs lg:max-w-md xl:max-w-4xl"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Image
+                src="/gallery/wit1.jpg"
+                width="600"
+                height="450"
+                alt="WIT Gallery Image"
+                className="rounded-lg md:max-w-xs lg:max-w-md xl:max-w-4xl"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Image
+                src="/gallery/wit2.jpg"
+                width="600"
+                height="450"
+                alt="WIT Gallery Image"
+                className="rounded-lg md:max-w-xs lg:max-w-md xl:max-w-4xl"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Image
+                src="/gallery/wit4.jpg"
+                width="600"
+                height="450"
+                alt="WIT Gallery Image"
+                className="rounded-lg md:max-w-xs lg:max-w-md xl:max-w-4xl"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Image
+                src="/gallery/wit5.jpg"
+                width="600"
+                height="450"
+                alt="WIT Gallery Image"
+                className="rounded-lg md:max-w-xs lg:max-w-md xl:max-w-4xl"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Image
+                src="/gallery/wit6.jpg"
+                width="600"
+                height="450"
+                alt="WIT Gallery Image"
+                className="rounded-lg md:max-w-xs lg:max-w-md xl:max-w-4xl"
+              />
+            </motion.div>
           </div>
         </div>
       </Wrapper>
