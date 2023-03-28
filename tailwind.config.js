@@ -13,8 +13,9 @@ module.exports = {
       fontFamily: {
         navLinkFont: ['Quicksand', 'sans-serif'],
         buttonFont: ['Maven Pro', 'sans-serif'],
-        hIFont: ['Montserrat', 'sans-serif'],
-        paraFont: ['Mulish', 'sans-serif']
+        hIFont: ['Barlow', 'sans-serif'],
+        paraFont: ['Work Sans', 'sans-serif'],
+        pageTitleFont: ['Patua One', 'cursive']
       }
     },
   },
