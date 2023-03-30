@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <section id="HeroSection" className="w-full">
-      <div className="w-80 h-96 lg:w-96 lg:right-20 lg:top-36 absolute right-16 top-26 rotate-45 bg-green-900 -z-10 rounded-full blur-3xl"></div>
+      <div className="w-32 h-96 lg:w-96 lg:right-20 lg:top-36 absolute right-32 top-26 rotate-45 bg-green-900 -z-10 rounded-full blur-3xl"></div>
       <Wrapper>
         <div className="flex flex-col lg:flex-row justify-center items-center">
           <Image

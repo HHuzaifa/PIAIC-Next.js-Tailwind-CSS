@@ -1,19 +1,27 @@
-import Wrapper from "../../components/Wrapper";
+import Wrapper from "@/components/Wrapper";
 import { BsCircleFill } from "react-icons/bs";
+import specializationS from "@/Data/specializaionsData";
+import specialization from "@/Data/specializaionsData";
 
-export default function AI() {
+async function getPost(id: string) {
+  const specialization = specializationS.find((specialization: any) => specialization.id === id)
+  return specialization
+}
+
+export default async function Course({ params }: { params: { id: string } }) {
+  const { id } = params;
+  const course = await getPost(id)
+
   return (
     <section className="w-full h-auto my-20">
       <div className="w-20 h-96 absolute right-40 rotate-45 bg-green-900 -z-10 rounded-full blur-3xl"></div>
       <Wrapper>
         <div className="w-full flex-col justify-between items-center text-center">
           <h1 className="text-white text-5xl font-pageTitleFont mb-20">
-            Artificial Intelligence
+            {course!.title}
           </h1>
           <p className="text-white text-xl font-paraFont mb-20">
-            The AI and Deep Learning specialization focuses on building and
-            deploying intelligent APIs using OpenAI models and building custom
-            Deep Learning Tensorflow models.
+            {course!.description}
           </p>
 
           <div className="pb-10">
@@ -61,7 +69,7 @@ export default function AI() {
           <div>
             <div className="w-20 h-96 absolute left-60  bg-green-900 -z-50 rounded-full blur-3xl"></div>
             <h2 className="text-[#2ca79c] text-xl lg:text-2xl font-semibold font-pageTitleFont">
-              Artificial Intelligence (AI) and Deep Learning Specialization
+              {course!.title}
             </h2>
             <ul className="my-10">
               <li className="relative flex gap-6 pb-5 -z-50">
@@ -71,8 +79,7 @@ export default function AI() {
                 <div className="bg-slate-800 text-start text-lg font-paraFont text-white rounded-2xl p-5">
                   <h3 className="font-bold text-xl">Quarter IV</h3>
                   <p>
-                    AI-351: Developing Planet-Scale Intelligent APIs and Python
-                    Programming
+                    {course!.quarter4Detail}
                   </p>
                 </div>
               </li>
@@ -82,7 +89,7 @@ export default function AI() {
                 </div>
                 <div className="bg-slate-900 text-start text-lg font-paraFont text-white rounded-2xl p-5">
                   <h3 className="font-bold text-xl">Quarter V</h3>
-                  <p>AI-361: Deep Learning and MLOps</p>
+                  <p>{course!.quarter5Detail}</p>
                 </div>
               </li>
             </ul>

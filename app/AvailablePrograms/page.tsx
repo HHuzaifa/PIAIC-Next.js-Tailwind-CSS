@@ -17,42 +17,42 @@ export default function AvailablePrograms() {
               title="Artificial Intelligence (Specialization)"
               bText="View Details"
               para="This specialization focuses on building and deploying intelligent APIs and building Deep Learning Tensorflow models."
-              link="/AI"
+              link="/AvailablePrograms/AI"
             />
             <Card
               image="/program images/metaverse.png"
               title="Web 3.0 & Metaverse (Specialization)"
               bText="View Details"
               para="This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences."
-              link="/Web3_Meta"
+              link="/AvailablePrograms/Web3Metaverse"
             />
             <Card
               image="/program images/cloudC.png"
               title="Cloud Computing (Specialization)"
               bText="View Details"
               para="The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes."
-              link="/Cloud"
+              link="/AvailablePrograms/CloudComputing"
             />
             <Card
               image="/program images/iot.png.jpg"
               title="Internet Of Things (Specialization)"
               bText="View Details"
               para="The Ambient Computing and IoT Specialization focuses on building Smart Homes and Cities using Voice computing, Matter Protocol, and Embedded Devices."
-              link="/IOT"
+              link="/AvailablePrograms/IOT"
             />
             <Card
               image="/program images/bioInformatics.png"
               title="Genomics & Bioinformatics (Specialization)"
               bText="View Details"
               para="This Specialization focuses on performing complex bioinformatics analysis using the most essential Python libraries and applications."
-              link="/BioInformatics"
+              link="/AvailablePrograms/GenomeBiotech"
             />
             <Card
               image="/program images/network and automation.png"
               title="Network Automation (Specialization)"
               bText="View Details"
               para="This course teaches network engineers how to automate systems with code using a variety of technologies and tools."
-              link="/NetworkAutomation"
+              link="/AvailablePrograms/NetAutomation"
             />
           </div>
 
