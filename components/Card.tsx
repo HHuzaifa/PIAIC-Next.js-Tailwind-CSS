@@ -26,7 +26,7 @@ const Card: FC<{
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-full h-full opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-white bg-opacity-50 backdrop-blur-xl p-4 flex items-center justify-center">
           <div>
-            <p className="text-black text-lg my-10 mx-5 lg:text-xl text-justify">
+            <p className="text-black text-lg my-10 ml-4 lg:text-xl text-left">
               {para}
             </p>
             <Link href={link} target="_blank">
