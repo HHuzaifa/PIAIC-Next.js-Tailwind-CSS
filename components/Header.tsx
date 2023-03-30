@@ -40,20 +40,9 @@ export default function Header() {
           <ul className="hidden lg:flex lg:justify-center space-x-16 font-navLinkFont font-semibold mb-5">
             <li className="text-white">
               <a
-                href="#HeroSection"
+                href="/"
                 className="hover:text-[#09746F] text-white"
-                onClick={(event) => {
-                  event.preventDefault();
-                  const yOffset = -180; // Set the offset here
-                  const element = document.querySelector("#HeroSection");
-                  if (element) {
-                    const y =
-                      element.getBoundingClientRect().top +
-                      window.pageYOffset +
-                      yOffset;
-                    window.scrollTo({ top: y, behavior: "smooth" });
-                  }
-                }}
+                
               >
                 About
               </a>
@@ -105,7 +94,7 @@ export default function Header() {
                 <ul className="max-w-full font-navLinkFont font-semibold space-y-10 text-center">
                   <li className="text-white">
                     <a
-                      href="#HeroSection"
+                      href="/"
                       className="hover:text-[#09746F] text-white"
                       onClick={(event) => {
                         event.preventDefault();
