@@ -17,7 +17,7 @@ export default async function Course({ params }: { params: { id: string } }) {
       <div className="w-20 h-96 absolute right-40 rotate-45 bg-green-900 -z-10 rounded-full blur-3xl"></div>
       <Wrapper>
         <div className="w-full flex-col justify-between items-center text-center">
-          <h1 className="text-white text-5xl font-pageTitleFont mb-20">
+          <h1 className="text-white text-4xl lg:text-5xl font-pageTitleFont mb-20">
             {course!.title}
           </h1>
           <p className="text-white text-xl font-paraFont mb-20">
